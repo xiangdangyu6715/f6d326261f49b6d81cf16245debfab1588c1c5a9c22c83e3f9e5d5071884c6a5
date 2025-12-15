@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '29 2/6 * * *'
-jobs:  # 7705
+jobs:  # 6600
   build:
     runs-on: ubuntu-latest
 
